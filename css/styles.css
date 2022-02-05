@@ -1,0 +1,107 @@
+.head_style {
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: black;
+  left: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: rgb(184 184 184 / 82%);
+  border-top: 1px solid black;
+  border-bottom: 1px solid rgb(82, 71, 71);
+  border-radius: 0px;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+.Our_menu_style {
+  font-size: 2em;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+.sec_style {
+  background-color: rgb(184 184 184 / 82%);
+  margin-bottom: 10px;
+}
+.row {
+  padding: 10px;
+}
+.menu_head {
+  margin-top: 5px;
+  font-size: 1.1em;
+  font-weight: bolder;
+}
+.p_style {
+  font-weight: 500;
+}
+.container1 {
+  margin-left: 0px;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 25px;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  background-color: white;
+  border: 1px solid black;
+  margin: 0px;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header {
+  height: auto;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border: 0px;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+.clearleft {
+  clear: left;
+  width: 100%;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .container1 {
+    margin: 0px;
+    border: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+  }
+  .head_style {
+    margin-left: 10px;
+  }
+  #collapsable-nav a {
+    /* Collapsed nav menu text */
+    font-size: 1.1em;
+  }
+  #collapsable-nav a span {
+    /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+}
